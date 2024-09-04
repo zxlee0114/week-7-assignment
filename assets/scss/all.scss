@@ -1,0 +1,16 @@
+//font-family: Castoro
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+//aos
+@import url("https://unpkg.com/aos@next/dist/aos.css");
+
+@import './base/reset.scss';
+@import './base/base.scss';
+
+@import './helpers/utils';
+@import './helpers/variable';
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+
+@import './pages/index.scss';

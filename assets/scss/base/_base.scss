@@ -1,0 +1,22 @@
+/* 盒模型 */
+*, *::before, *::after{
+    box-sizing: border-box;
+  }
+  
+  /* 整體設定 */
+  body{
+    font-family: Castoro, serif;
+    line-height: 1.5;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+  }

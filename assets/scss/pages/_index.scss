@@ -1,0 +1,40 @@
+
+
+/* 容器 */
+.container{
+  width: 1296px;
+  margin: 0 auto;
+}
+
+/* 頁首 */
+.header-title{
+  font-size: 128px;
+  letter-spacing: 0.12em;
+}
+
+/* 自我介紹區塊 */
+.self-intro{
+  background: #EFEFEF;
+  font-size: 32px;
+}
+
+/* 個人資訊列表 */
+.info-list{
+  font-size: 24px;
+}
+
+.info-list-item{
+  font-size: 40px;
+  color: $primary;
+  border-bottom: 3px solid $primary;
+}
+
+.info-list a:hover{
+  text-decoration: underline;
+}
+
+.info-duration{
+  font-size: 20px;
+  font-style: italic;
+  color: #949494;
+}
